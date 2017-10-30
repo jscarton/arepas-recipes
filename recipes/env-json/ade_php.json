@@ -1,0 +1,40 @@
+{
+	"ade": {
+		"platforms": {
+			"PHP": {
+				"version": "20171030",
+				"platform": "php",
+				"hostname": "php.arepasapp.com",
+				"memory": "1024",
+				"ip": "192.168.56.151",
+				"dns": {
+					"entry": [
+						{
+							"domain": "php.arepasapp.com",
+							"active": "yes"
+						},
+						{
+							"domain": "phpapp.arepasapp.com",
+							"active": "yes"
+						}
+					]
+				},
+				"apps": {
+					"docs": {
+						"id": "AZDSDLVSL",
+						"dns": "php.arepasapp.com",
+						"uri": "/docs",
+						"webroot": "/var/www/projects/arepas-docs",
+						"port": "80",
+						"ssl": "no",
+						"require": [
+							"laravel",
+							"bedrock",
+							"wp-cli"
+						]
+					}
+				}
+			}
+		}
+	}
+}

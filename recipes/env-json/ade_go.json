@@ -1,0 +1,35 @@
+{
+	"ade": {
+		"platforms": {
+			"GO": {
+				"version": "20171030",
+				"platform": "go",
+				"hostname": "go.arepasapp.com",
+				"memory": "1024",
+				"ip": "192.168.56.152",
+				"dns": {
+					"entry": [
+						{
+							"domain": "go.arepasapp.com",
+							"active": "yes"
+						},
+						{
+							"domain": "goapp.arepasapp.com",
+							"active": "yes"
+						}
+					]
+				},
+				"apps": {
+					"docs": {
+						"id": "NAJVAKDA",
+						"dns": "go.arepasapp.com",
+						"uri": "/docs",
+						"port": 80,
+						"internal_port": 8080,
+						"ssl": "no"
+					}
+				}
+			}
+		}
+	}
+}
