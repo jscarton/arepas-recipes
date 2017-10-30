@@ -21,7 +21,6 @@
 				},
 				"apps": {
 					"docs": {
-						"id": "AZDSDLVSL",
 						"dns": "php.arepasapp.com",
 						"uri": "/docs",
 						"webroot": "/var/www/projects/arepas-docs",

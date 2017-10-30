@@ -21,7 +21,6 @@
 				},
 				"apps": {
 					"docs": {
-						"id": "NAJVAKDA",
 						"dns": "go.arepasapp.com",
 						"uri": "/docs",
 						"port": 80,
